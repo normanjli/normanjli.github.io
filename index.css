@@ -1,23 +1,95 @@
 *{
     font-family: 'Oswald', sans-serif;
+    /* background-color: gray; */
+
+}
+#title{
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    margin:0 auto;
+    background-color: gray;
+    color:white;
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
 }
 .bio{
-    margin: auto;
+    margin: 150px auto;
+    margin-bottom: 50px;
     display: flex;
-    width: 700px;
+    width: 900px;
     gap:10px;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 1em;
+    z-index: 2;
 }
 #biotext{
     text-align: left;
-    width: 300px;
+    width: 400px;
 }
 #me{
-    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 #profilepic{
-    object-fit: contain;
+    object-fit: cover;
     object-position: bottom left;
     width: 300px;
+    height: 300px;
+    border-radius: 10%;
 }
+#sociallinks{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.sociallinkicon{
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+}
+.skills{
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -.5em;
+    width:100vw;
+    background-color: gray;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:1em;
+    justify-content:space-around;
+    width: 200px;
+    padding:1em;
+}
+.projects{
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -.5em;
+    width:100vw;
+    background-color: gray;
+}
+@media only screen and (max-width: 992px) {
+    .bio{
+        flex-direction: column;
+        align-items: center;
+        margin:auto;
+        margin-top: 125px;
+        width: fit-content;
+    }
+  }
