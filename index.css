@@ -1,10 +1,9 @@
 * {
   font-family: "Oswald", sans-serif;
   color: #172121;
-
 }
 body {
-  background-color: #7F7B82;
+  background-color: #7f7b82;
 }
 #title {
   position: fixed;
@@ -12,7 +11,7 @@ body {
   left: 0;
   display: flex;
   margin: 0 auto;
-  background-color: #AF97A2;
+  background-color: #af97a2;
   color: #172121;
   width: 100%;
   height: fit-content;
@@ -31,7 +30,6 @@ body {
   align-items: center;
   padding-bottom: 1em;
   color: #172121;
-
 }
 #biotext {
   text-align: left;
@@ -67,7 +65,7 @@ body {
   align-items: center;
   margin-left: -0.5em;
   width: 100vw;
-  background-color: #AF97A2;
+  background-color: #af97a2;
 }
 #skills {
   display: flex;
@@ -85,21 +83,21 @@ body {
   align-items: center;
   margin-left: -0.5em;
   width: 100vw;
-  background-color: #7F7B82;
+  background-color: #7f7b82;
 }
 .projectimg {
   object-fit: contain;
   height: 200px;
 }
 .project {
-    background-color: #E5D0CC;
-    margin-bottom: 2em;
+  background-color: #e5d0cc;
+  margin-bottom: 2em;
   width: fit-content;
   border-radius: 10px;
   box-shadow: black 2px 1px 1px;
 }
 .project > h4 {
-  background-color: #AF97A2;
+  background-color: #af97a2;
   padding: 0.2em;
   margin: 0;
   border-top-right-radius: 10px;
@@ -114,6 +112,42 @@ body {
   width: 50vw;
   gap: 2em;
   text-align: left;
+}
+.workexp {
+  background-color: #af97a2;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+    margin-left: -0.5em;
+    padding:1em;
+}
+.workcard {
+  background-color: #e5d0cc;
+  margin: auto;
+  margin-bottom: 2em;
+  width: fit-content;
+  box-shadow: black 2px 1px 1px;
+  text-align: left;
+}
+.workcardtitle {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  background-color: #7f7b82;
+  padding-left:.5em;
+  padding-right: .3em;
+  margin: 0 auto;
+  height: fit-content;
+}
+.workcardtitle>h4{
+    margin:0;
+    text-align: left;
+}
+.workcard>ul{
+    margin-left:1em;
+    margin-top: -.7em;
+    padding:1em;
 }
 @media only screen and (max-width: 992px) {
   .bio {
