@@ -18,9 +18,11 @@ content{
   background-color: #af97a2;
   color: #172121;
   width: 100%;
+  max-height: 4em;
   height: fit-content;
   text-align: left;
   align-items: center;
+  border-bottom: 2px solid black;
   justify-content: space-evenly;
   z-index: 10;
 }
@@ -125,6 +127,7 @@ content{
   margin: 0 auto;
   text-align: center;
     margin-left: -0.5em;
+    padding:1em;
 }
 .workcard {
   background-color: #e5d0cc;
