@@ -1,8 +1,10 @@
 * {
   font-family: "Oswald", sans-serif;
+  color: #172121;
+
 }
 body {
-  background-color: cornflowerblue;
+  background-color: #7F7B82;
 }
 #title {
   position: fixed;
@@ -10,8 +12,8 @@ body {
   left: 0;
   display: flex;
   margin: 0 auto;
-  background-color: gray;
-  color: black;
+  background-color: #AF97A2;
+  color: #172121;
   width: 100%;
   height: fit-content;
   text-align: left;
@@ -28,6 +30,8 @@ body {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 1em;
+  color: #172121;
+
 }
 #biotext {
   text-align: left;
@@ -63,7 +67,7 @@ body {
   align-items: center;
   margin-left: -0.5em;
   width: 100vw;
-  background-color: gray;
+  background-color: #AF97A2;
 }
 #skills {
   display: flex;
@@ -81,21 +85,21 @@ body {
   align-items: center;
   margin-left: -0.5em;
   width: 100vw;
-  background-color: cornflowerblue;
+  background-color: #7F7B82;
 }
 .projectimg {
   object-fit: contain;
   height: 200px;
 }
 .project {
-  background-color: gray;
-  margin-bottom: 2em;
+    background-color: #E5D0CC;
+    margin-bottom: 2em;
   width: fit-content;
-  border: black solid 2px;
   border-radius: 10px;
+  box-shadow: black 2px 1px 1px;
 }
 .project > h4 {
-  background-color: white;
+  background-color: #AF97A2;
   padding: 0.2em;
   margin: 0;
   border-top-right-radius: 10px;
