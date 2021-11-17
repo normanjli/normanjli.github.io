@@ -87,7 +87,7 @@ content{
   flex-direction: column;
   align-items: center;
   margin-left: -0.5em;
-  width: 100vw;
+  max-width: 100vw;
   background-color: #7f7b82;
 }
 .projectimg {
@@ -121,7 +121,7 @@ content{
 }
 .workexp {
   background-color: #af97a2;
-  width: 100vw;
+  max-width: 100vw;
   margin: 0 auto;
   text-align: center;
     margin-left: -0.5em;
