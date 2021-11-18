@@ -166,4 +166,13 @@ content{
   .workcard{
     width: 100%;
   }
+  .project{
+    width:90%;
+  }
+  .projectimg{
+    max-width: 40vw;
+  }
+  .projectdesc {
+  width:80%
+  }
 }
