@@ -133,7 +133,7 @@ content{
   background-color: #e5d0cc;
   margin: auto;
   margin-bottom: 2em;
-  width: fit-content;
+  width: 50vw;
   box-shadow: black 2px 1px 1px;
   text-align: left;
 }
